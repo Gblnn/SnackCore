@@ -11,6 +11,7 @@ export default function Home() {
         <div style={{margin:"1.5rem"}}>
             <Categories/>
         </div>
+        <br/>
         
         </>
     )
