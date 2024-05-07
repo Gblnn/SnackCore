@@ -1,3 +1,4 @@
+import { ChevronRight } from "lucide-react"
 import { Link } from "react-router-dom"
 
 
@@ -14,7 +15,7 @@ export default function LandingPage(){
             <br/>
             <br/>
             <Link to="/home">
-            <button>Get Started</button>
+            <button>Get Started <ChevronRight width="1rem"/></button>
             </Link>
             
         </div>
