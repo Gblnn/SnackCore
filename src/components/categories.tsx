@@ -5,7 +5,7 @@ export default function Categories() {
         <>
         <div>
             
-            <h3 style={{color:""}}>What are you Craving?🍒</h3>
+            <h3 style={{color:""}}>What are you Craving?</h3>
 
             <br/>
 
