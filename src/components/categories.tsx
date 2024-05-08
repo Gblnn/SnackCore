@@ -46,6 +46,11 @@ export default function Categories() {
                 </div>
 
                 <div id="category-item" className="category-item">
+                <img src="/potato-chips.png" style={{width:"4rem"}}/>
+                <h4 style={{bottom:"0"}}>Chips</h4>
+                </div>
+
+                <div id="category-item" className="category-item">
                 <img src="/popcorn.png" style={{width:"4rem"}}/>
                 <h4 style={{bottom:"0"}}>Popcorn</h4>
                 </div>
@@ -60,10 +65,7 @@ export default function Categories() {
                 <h4 style={{bottom:"0"}}>Fresh Juice</h4>
                 </div>
 
-                <div id="category-item" className="category-item">
-                <img src="/tea.png" style={{width:"4rem"}}/>
-                <h4 style={{bottom:"0"}}>Tea</h4>
-                </div>
+                
 
                 <div id="category-item" className="category-item">
                 <img src="/coffee.png" style={{width:"4rem"}}/>
@@ -71,9 +73,11 @@ export default function Categories() {
                 </div>
 
                 <div id="category-item" className="category-item">
-                <img src="/potato-chips.png" style={{width:"4rem"}}/>
-                <h4 style={{bottom:"0"}}>Chips</h4>
+                <img src="/tea.png" style={{width:"4rem"}}/>
+                <h4 style={{bottom:"0"}}>Tea</h4>
                 </div>
+
+                
 
                 <div id="category-item" className="category-item">
                 <img src="/sandwich.png" style={{width:"4rem"}}/>
