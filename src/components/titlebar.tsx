@@ -14,13 +14,13 @@ export default function TitleBar(props:Props){
             <div id="primary-layer" style={{border:"", margin:"1.5rem", width:"100%", display:"flex", justifyContent:"space-between", alignItems:"center"}}>
 
                 <div id="title-layer" style={{display:"flex", border:"", gap:"0.5rem", alignItems:"center"}}>
-                    <img alt="cake" style={{width:"3rem"}} id="logo" src="vending.png"/>
+                    <img alt="cake" style={{width:"3rem"}} id="logo" src="/vending.png"/>
                     <h1 style={{userSelect:"none", color:"white"}}>{props.title}</h1>
                 </div>
 
-                <div id="options-layer" style={{display:"flex", border:""}}>
+                {/* <div id="options-layer" style={{display:"flex", border:""}}>
                     <button onClick={props.onLanguage} style={{userSelect:"none"}}>{props.buttonText}</button>
-                </div>
+                </div> */}
                 
             </div>
         </div>

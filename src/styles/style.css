@@ -65,6 +65,30 @@ input:focus {
   height: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.nav-active {
+  color: crimson;
+  background: rgba(220 20 60/ 15%);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.nav-inactive {
+  color: #8a8a8a;
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+}
+
 @media (width>1286px) {
   .bg {
     height: 100vh;

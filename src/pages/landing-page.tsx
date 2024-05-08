@@ -11,14 +11,14 @@ export default function LandingPage(){
                 <img src="vending.png"/>
                 <h1 style={{fontSize:"3rem"}}>SnackCore</h1>
             </div>
-            <p style={{fontSize:"1rem"}}>Bringing your favorite snacks to you🎊</p>
+            <p style={{fontSize:"1rem"}}>Bringing your favorite snacks to you.</p>
 
             <br/>
             <br/>
             
             
             
-            <Link to="/home" style={{textDecoration:"none", width:"fit-content", position:"absolute", bottom:0, margin:"4rem"}}>
+            <Link to="/0e/home" style={{textDecoration:"none", width:"fit-content", position:"absolute", bottom:0, margin:"6rem"}}>
             <button style={{background:"white", color:"black"}}>Get Started <ChevronRight width="1rem"/></button>
         </Link>    
         </div>
